@@ -8,7 +8,7 @@ import {
 } from "lucide-react";
 
 import api from "../../services/api";
-import DashboardLayout from "../../layouts/DashboardLayout";
+import DashboardLayout from "../../layouts/dashboardLayout";
 
 import {
   Card,
