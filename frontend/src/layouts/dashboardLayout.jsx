@@ -23,7 +23,7 @@ import {
 import { LogOut } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
-import AppSidebar from "../components/AppSidebar";
+import AppSidebar from "../components/appSidebar";
 import useAuthStore from "../store/authStore";
 
 
