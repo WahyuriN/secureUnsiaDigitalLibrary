@@ -1,12 +1,12 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import Login from "./pages/auth/Login";
-import Dashboard from "./pages/dashboard/Dashboard";
-import ProtectedRoute from "./components/ProtectedRoute";
-import Books from "./pages/books/Books";
-import Members from "./pages/members/Members";
-import Loans from "./pages/loans/Loans";
-import Register from "./pages/auth/Register";
-import NotFound from "./pages/NotFound";
+import Login from "./pages/auth/login";
+import Dashboard from "./pages/dashboard/dashboard";
+import ProtectedRoute from "./components/protectedRoute";
+import Books from "./pages/books/books";
+import Members from "./pages/members/members";
+import Loans from "./pages/loans/loans";
+import Register from "./pages/auth/register";
+import NotFound from "./pages/notFound";
 
 function App() {
   return (
