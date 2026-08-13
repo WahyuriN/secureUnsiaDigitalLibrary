@@ -1,6 +1,6 @@
-const Loan = require("../models/Loan");
-const Book = require("../models/Book");
-const Member = require("../models/Member");
+const Loan = require("../models/loan");
+const Book = require("../models/book");
+const Member = require("../models/member");
 
 const getLoans = async (req, res, next) => {
     try {
