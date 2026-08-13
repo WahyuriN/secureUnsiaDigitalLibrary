@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Plus, Search, Pencil, Trash2, BookOpen } from "lucide-react";
 
 import api from "../../services/api";
-import DashboardLayout from "../../layouts/DashboardLayout";
+import DashboardLayout from "../../layouts/dashboardLayout";
 
 import {
   Card,
