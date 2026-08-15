@@ -75,7 +75,7 @@ Frontend menggunakan vercel : https://secure-unsia-frontend.vercel.app
 
 Backend menggunakan Render : https://secureunsia-backend.onrender.com
 
-Repository pada Github : https://github.com/WahyuriN/secureUnsiaDigitalLibrary
+Repository Github : https://github.com/WahyuriN/secureUnsiaDigitalLibrary
 
 
 
