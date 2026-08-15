@@ -1,12 +1,82 @@
-# React + Vite
+## Tugas Ujian Akhir Semestar Mata Kuliah	: Pemrograman web 2
+## Kelas	        : IF401
+## Prodi	        : Informatika PJJ S1
+## Nama Mahasiswa	: Wahyu Ari Nugroho
+## NIM	            : 240401010173
+## Dosen	        : Ratih Titi Komala Sari, ST, MM, MMSI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Secure UNSIA Digital Library
+Secure UNSIA Digital Library merupakan aplikasi full-stack perpustakaan digital  
+yang dibuat untuk memenuhi UAS Pemrograman Web 2 Universitas Siber Asia.
+Secure UNSIA Digital Library digunakan untuk mengelola data buku, member,
+peminjaman, dan menyediakan dashboard statistik perpustakaan.
 
-Currently, two official plugins are available:
+## Teknologi yang digunakan
+- Frontend: React.js, Vite, Tailwind CSS, Chart.js
+- Backend: Node.js, Express.js
+- Database: MongoDB dengan Mongoose
+- Authentication: JWT dan bcryptjs
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Fitur utama 
+- Register dan Login
+- Autentikasi JWT
+- Protected Route
+- CRUD Buku
+- CRUD Peminjaman
+- Pengelolaan Member
+- Dashboard dan grafik statistik
+- REST API
+- Validasi input dan error handling
 
-## Expanding the ESLint configuration
+## Struktur Project
+struktur direktori aplikasi secure Unisa Digital Library meliputi 
+secureUnsiaDigitalLibrary/
+        backend/
+            config/ ()
+│           controllers/
+│           middleware/
+│           models/
+│           routes/
+│           src/
+│           .env.example
+│           package.json
+│           server.js
+        frontend/
+            src/
+            ....
+            package.json
+            
+        postman/
+        README.md
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## instruksi menjalankan projek
+        (backend) jalankan :
+        - cd backend 
+        - npm install
+        - npm run dev 
+        - backend berjalan pada port : 5050
+        - struktur file .env di backend/.env berdasarkan backend/.env.example ,
+            dengan variabel :
+                MONGODB_URI=
+                JWT_SECRET=
+                PORT=5050
+
+        (frontend) jalankan :
+        - cd frontend
+        - npm install
+        - npm run dev
+
+        - Pengujian REST API dilakukan menggunakan Postman
+        - collection pngujian berada pada file secureUnsiaDigitalLibrary-ujiRestAPI.postman_collection.json 
+
+## Link Deployment
+
+Frontend menggunakan vercel : https://secure-unsia-frontend.vercel.app
+
+Backend menggunakan Render : https://secureunsia-backend.onrender.com
+
+Repository pada Github : https://github.com/WahyuriN/secureUnsiaDigitalLibrary
+
+
+
+
