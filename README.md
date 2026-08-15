@@ -31,20 +31,21 @@ peminjaman, dan menyediakan dashboard statistik perpustakaan.
 ## Struktur Project
 struktur direktori aplikasi secure Unisa Digital Library meliputi 
 secureUnsiaDigitalLibrary/
-- backend/
-- config/ ()
-- controllers/
-- middleware/
-- models/
-- routes/
-- src/
-- .env.example
-- package.json
-- server.js
+backend/
+        - config/ ()
+        - controllers/
+        - middleware/
+        - models/
+        - routes/
+        - src/
+        - .env.example
+        - package.json
+        - server.js
 frontend/
-- src/....
+        - src/....
 package.json
 postman
+
 README.md
 
 ## instruksi menjalankan projek
