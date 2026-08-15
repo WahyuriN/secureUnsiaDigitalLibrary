@@ -1,4 +1,4 @@
-## Tugas Ujian Akhir Semestar Mata Kuliah	: Pemrograman web 2
+## Tugas Ujian Akhir Semester Mata Kuliah	: Pemrograman web 2
 ## Kelas	        : IF401
 ## Prodi	        : Informatika PJJ S1
 ## Nama Mahasiswa	: Wahyu Ari Nugroho
